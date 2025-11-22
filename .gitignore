@@ -1,1 +1,40 @@
+# Ignore large data files
+*.zip
+*.csv
+*.json
+*.xlsx
+*.parquet
+*.h5
+*.hdf5
+*.pt
+*.pth
+*.joblib
+*.pickle
+*.pkl
+
+# Ignore Kaggle API files
+kaggle.json
+
+# Ignore Colab runtime files
+*.ipynb_checkpoints/
+
+# Ignore temporary output files
+*.log
+*.tmp
+
+# Ignore model checkpoints and intermediate outputs
+checkpoints/
+models/
+weights/
+output/
+outputs/
+
+# Ignore virtual environment folders
+venv/
+env/
+__pycache__/
+
+# Ignore system files
+.DS_Store
+Thumbs.db
 
